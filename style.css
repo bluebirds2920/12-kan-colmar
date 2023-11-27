@@ -10,7 +10,7 @@
 
 
 .colmar-body{
-    background-color: rgb(245,244,245);
+    background-color: rgb(233, 233, 233);
 }
 
 
@@ -251,7 +251,7 @@ padding-bottom: 8px;
     width: 100%;
     height: auto;
    flex: 35%;
-    overflow: hidden;
+    
 }
 .inform-item-r-left img{
     width: 100%;
@@ -288,7 +288,70 @@ padding-bottom: 8px;
 /*section-information-style*/
 
 
+/*section-learning-style*/
+.course{
+    display: flex;
+    /* background-color: rgb(238, 238, 238); */
+    flex-direction: column;
+    align-items: center;
+}
+.title-section-course{
+    color: #4e4e4e;
+   font-size: 3rem;
+   font-weight: 700;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    /* background-color: blueviolet; */
+}
+.course-item{
+  display: flex;
+ margin-left: 72px;
+    /* background-color: rgb(200, 125, 28); */
+   gap: 32px;
+   flex-wrap: wrap;
+   margin-right: 72px;
+   margin-bottom: 32px;
+   justify-content: center;
+  
+   
+}
+.card-course{
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.card-course-header {
+    margin-bottom: 16px;
+ }
+.card-course-header img{
+   
+    height: auto;
+    object-fit: cover;
+  
+    max-width: 100%;
+    
+}
 
+.card-course-content{
+    padding-left: 16px;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 24px;
+}
+.card-course-content h3{
+    color: #4e4e4e;
+    font-size: 2rem;
+}
+.card-course-content p{
+    color: #5c5c5c;
+    font-size: 1.5rem;
+}
+
+/*section-learning-style*/
 
 
 
