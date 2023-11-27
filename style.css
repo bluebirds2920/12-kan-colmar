@@ -38,7 +38,9 @@ a:link {
   }
 
 /*header-style*/
-
+.cm-header-mobile{
+    display: none;
+}
 .cm-header{
     width: 100%;
     display: flex;
@@ -484,16 +486,23 @@ padding-bottom: 8px;
 
 
 @media (max-width: 480px){
-    .colmar-header{
+    .cm-header{
         display: none;
     }
     
-    .colmar-miniheader{
-       
+    .cm-header-mobile{
+        
+       width: 100%;
         height: 64px;
         background-color: rgb(96, 88, 72);
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
     }
+.mobile-ul{
+    width: 100%;
+    display: flex;
+}
+   
+
     }
