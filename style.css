@@ -3,12 +3,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box; 
-    font-family: 'Abril Fatface', serif;
+  
 font-family: 'Cabin', sans-serif;
 }
+
+
 .colmar-body{
     background-color: rgb(245,244,245);
 }
+
+
 a{
     color: #5c5c5c;
 }
@@ -31,6 +35,9 @@ a:link {
     
     text-decoration: underline;
   }
+
+/*header-style*/
+
 .cm-header{
     width: 100%;
     display: flex;
@@ -82,7 +89,11 @@ a:link {
     align-items: center;
     gap:16px
 }
+/*header-style*/
 
+
+
+/*section-hero-style*/
 .hero{
     overflow: hidden;
     object-fit: cover;
@@ -95,8 +106,7 @@ a:link {
 .hero-left{
     
     margin: 32px 0px 32px 24px;
-    /* margin-top: 32px;
-    margin-left: 24px; */
+    
     flex: 3;
     /* background-color: blanchedalmond; */
 }
@@ -148,3 +158,106 @@ padding-bottom: 8px;
    margin-top: 50px;
     background-color: rgb(135, 135, 135);
 }
+/*section-hero-style*/
+
+
+/*section-information-style*/
+.information{
+    display: flex;
+    height: 100vh;
+    background-color: #535353;
+    gap: 24px;
+}
+.inform-l{
+    flex: 3;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.image-inform-l{
+    margin-left:24px;
+    margin-top: 32px;
+    background-color: #5c5c5c;
+    height: 100vh;
+    margin-bottom: 32px;
+    overflow: hidden;
+}
+
+.image-inform-l img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    
+    
+}
+
+
+.inform-item-l1{
+    letter-spacing: 4px;
+    margin-left:24px;
+    font-size :2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background-color: aquamarine;
+}
+
+.inform-item-l2{
+    margin-left:24px;
+    font-size: 1.2rem;
+    background-color: rgb(22, 95, 71);
+}
+.inform-item-l3{
+    font-size: 1.2rem;
+    margin-left:24px;
+    margin-top:50px;
+    margin-bottom: 32px;
+    background-color: aquamarine;
+}
+
+
+
+.inform-r{
+    flex: 2;
+    width: 100%;
+    background-color: aquamarine;
+}
+.inform-item-r{
+    display: flex;
+}
+
+
+
+
+
+/*section-information-style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+    .colmar-header{
+        display: none;
+    }
+    
+    .colmar-miniheader{
+       
+        height: 64px;
+        background-color: rgb(96, 88, 72);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    }
