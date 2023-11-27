@@ -4,7 +4,8 @@
     margin: 0;
     box-sizing: border-box; 
   
-font-family: 'Cabin', sans-serif;
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 
@@ -132,7 +133,7 @@ a:link {
 
 
 .hr-item-1{
-    color: #535353;
+    color: #4e4e4e;
     margin-top: 100px;
    
     width: 80%;
@@ -142,7 +143,7 @@ a:link {
 
 }
 .hr-item-2{
-    color: #535353;
+    color: #4e4e4e;
     margin-top: 30px;
     font-size: 1.8rem;
    width: 80%;
@@ -156,7 +157,7 @@ width: 80%;
 padding-top: 8px;
 padding-bottom: 8px;
    margin-top: 50px;
-    background-color: rgb(135, 135, 135);
+    background-color: #4e4e4e;
 }
 /*section-hero-style*/
 
@@ -165,13 +166,13 @@ padding-bottom: 8px;
 .information{
     display: flex;
     height: 100vh;
-    background-color: #535353;
+    background-color: rgb(237, 247, 248);
     gap: 24px;
 }
 .inform-l{
     flex: 3;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
    
@@ -180,7 +181,7 @@ padding-bottom: 8px;
 .image-inform-l{
     margin-left:24px;
     margin-top: 32px;
-    background-color: #5c5c5c;
+    /* background-color: #fff8f8; */
     height: 100vh;
     margin-bottom: 32px;
     overflow: hidden;
@@ -197,40 +198,91 @@ padding-bottom: 8px;
 
 
 .inform-item-l1{
+    color: #4e4e4e;
     letter-spacing: 4px;
     margin-left:24px;
     font-size :2rem;
     font-weight: 700;
     margin-bottom: 24px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .inform-item-l2{
+    color: #5c5c5c;
     margin-left:24px;
     font-size: 1.2rem;
-    background-color: rgb(22, 95, 71);
+    /* background-color: rgb(22, 95, 71); */
 }
 .inform-item-l3{
+    color:#4e4e4e;
     font-size: 1.2rem;
     margin-left:24px;
     margin-top:50px;
     margin-bottom: 32px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
-
+.inform-item-r:hover {
+   
+    background-color: #dddddd; 
+}
 
 .inform-r{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-left:1px  solid #c9c9c9;
     flex: 2;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: rgb(255, 255, 255); */
 }
 .inform-item-r{
+   height: 220px;
+    
     display: flex;
+    /* background-color: burlywood; */
+    box-shadow: -2px 2px 2px 1px rgba(173, 173, 173, 0.2); /* เพิ่มบรรทัดนี้เพื่อเพิ่มเงา */
 }
-
-
-
+.inform-item-r-left{
+    /* background-color: aquamarine; */
+    margin-top:16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    width: 100%;
+    height: auto;
+   flex: 35%;
+    overflow: hidden;
+}
+.inform-item-r-left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+.inform-item-r-right{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 32px;
+    /* background-color: rgb(173, 173, 173); */
+   flex: 65%;
+   gap: 8px;
+   
+}
+.inform-item-r-right a{
+    color: rgb(0, 157, 255);
+}
+.inform-item-r-right h3{
+    font-size: 1.5rem;
+    color: rgb(64, 64, 64);
+}
+.inform-item-r-right p{
+    
+    color: #4e4e4e;
+    font-size: 1.3rem;
+    margin-right: 50px;
+}
 
 
 /*section-information-style*/
