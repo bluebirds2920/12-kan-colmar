@@ -149,6 +149,9 @@ a:link {
    width: 80%;
     /* background-color: antiquewhite; */
 }
+.hr-item-3:hover{
+    background-color: #969696;
+}
 .hr-item-3{
 color: white;
 text-align: center;
@@ -315,6 +318,9 @@ padding-bottom: 8px;
   
    
 }
+.card-course:hover{
+    background-color: #c9c9c9;
+}
 .card-course{
     flex-grow: 1;
     flex-shrink: 1;
@@ -356,11 +362,11 @@ padding-bottom: 8px;
 
 /*section-thesis-style*/
 .thesis {
-    background-color: rgb(241, 241, 241);
+    /* background-color: rgb(139, 34, 34); */
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 32px;
+   
 }
 .thesis-text{
     margin-top: 32px;
@@ -451,6 +457,24 @@ padding-bottom: 8px;
 /*section-thesis-style*/
 
 
+/*footer-colmar-style*/
+.footer-colmar{
+    border-top: 1px solid  #939393;
+    padding-top: 16px;
+    /* background-color: rgb(241, 240, 240); */
+    display: flex;
+    justify-content: space-between;
+ padding-left: 24px;
+ padding-bottom: 16px;
+ padding-right: 24px;
+}
+
+.text-footer-left{
+    color: #4e4e4e;
+}
+
+
+/*footer-colmar-style*/
 
 
 
